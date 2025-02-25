@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('Assets/img1.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background: rgba(211, 47, 47, 0.8);
+    color: white;
+    padding: 10px;
+    transition: background 0.3s ease-in-out;
+}
+header:hover {
+    background: rgba(211, 47, 47, 1);
+}
+
+section {
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    background: rgba(211, 47, 47, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: rgba(211, 47, 47, 0.9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffeb3b;
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background:black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+b{
+    color:red;
+}
+#social-media {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+#social-media h3 {
+    font-size: 1.5rem;
+    color: #030303;
+    margin-bottom: 15px;
+}
+
+#social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #d32f2f;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#social-media a:hover {
+    color: #060606;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    .btn {
+        padding: 8px 15px;
+    }
+}
